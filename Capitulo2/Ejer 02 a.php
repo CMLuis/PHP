@@ -11,7 +11,7 @@ Conversor euros a pesetas.
     <body>
         <h1>Ejercicio 2. Recogida de datos.</h1>
         <form action="Ejer 02 b.php" method="get">
-            Euros: <input type="number" name="euros" step='0.1' />
+            Euros: <input type="number" name="euros" step='0.01' min="0"/>
             <input type="submit" value="Enviar" />
         </form>
     </body>
