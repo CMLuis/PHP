@@ -21,9 +21,9 @@ Resolver ecuación de segundo grado.
         } else if ($a == 0) {
             echo "División entre 0";
         } else {
-            echo "solucion 1 = ", ( - $b + sqrt($temp1 - $temo2) ) / - 2 * $a;
+            echo "solucion 1 = ", ( - $b + sqrt($temp1 - $temp2) ) / - 2 * $a;
             echo "<br>";
-            echo "solucion 2 = ", ( - $b - sqrt($temp1 - $temo2) ) / - 2 * $a;
+            echo "solucion 2 = ", ( - $b - sqrt($temp1 - $temp2) ) / - 2 * $a;
         }
         ?>
     </body>
