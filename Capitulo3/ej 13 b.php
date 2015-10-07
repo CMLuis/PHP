@@ -37,9 +37,10 @@ Ordenar 3 enteros.
          * c a b
          * c b a
          */
-        /*$comp1 = ($a < $b)?"$a":"$b";
-        $comp2 = ($a < $c)?"$a":"$c";
-        $comp3 = ($b < $c)?"$b":"$c";
+        /*
+        ($a < $b)?"posA-- && posB++":"posA++ && posB--";
+        ($a < $c)?"posA-- && posC++":"posA++ && posC--";
+        ($b < $c)?"posB-- && posC++":"posB++ && posC--";
         
         $resultado = ($comp1 < $c)? "$comp1" + : "$c";
         */
