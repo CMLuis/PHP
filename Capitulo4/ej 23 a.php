@@ -16,12 +16,12 @@ Mostrar total, contador de numeros y media.
     </head>
     <body>
         <?php
-        if ($total < 10000) {
+        if ($total <= 10000) {
         ?>
         <h1>Introduce números.</h1>
         <p>Objetivo: Alcanzar un valor acumulado superior a 10.000</p>
         <form action="ej 23 a.php" method="post">
-            <input name="numero" type="number" min="0" step="1"/>
+            <input name="numero" type="number" min="0" step="1" autofocus="autofocus"/>
             <input name="total" type="hidden" value="<?= $total ?>" />
             <input name="contador" type="hidden" value="<?= $contador ?>" />
             <button type="submit">Acumular</button>

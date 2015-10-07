@@ -7,6 +7,11 @@ Calcular media. Numero indefinido de datos.
     <head>
         <meta charset="UTF-8">
         <title>Capitulo 4. Ejercicio 10.</title>
+        <style>
+            form {
+                display: inline-block;
+            }
+        </style>
     </head>
     <body>
         
@@ -32,11 +37,14 @@ Calcular media. Numero indefinido de datos.
         ?>
         
         <h1>Media de numeros.</h1>
-        <form action="ej 10 a.php" method="post">
-            <input name="num" type="number" min="0" step="1" value="0" />
+        <form action="#" method="post">
+            <input name="num" type="number" min="0" step="1" autofocus="autofocus"/>
             <input name="cantidad" type="hidden" value="<?= $c ?>" />
             <input name="media" type="hidden" value="<?= $m ?>" />
             <button type="submit">Enviar</button>
+        </form>
+        <form action="#" method="post">
+            <button type="submit">Reiniciar</button>
         </form>
         <p>Media acumulada = <?= $m ?> </p>
         <p>Cantidad de numeros almacenados: <?= $c ?> </p>

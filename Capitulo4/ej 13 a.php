@@ -31,7 +31,7 @@ Lee 10 numeros, y cuenta positivos y negativos.
         <p>Llevas <?= $c ?> numeros introducidos.</p>
         <p>Llevas <?= $p ?> pares</p>
         <form action="ej 13 a.php" method="post">
-            <input name="numero" type="number" min="0" step="1"/>
+            <input name="numero" type="number" min="0" step="1" autofocus="autofocus"/>
             <input name="cantidad" type="hidden" value="<?= $c + 1 ?>" />
             <input name="pares" type="hidden" value="<?= $p ?>" />
             <button type="submit">Siguiente</button>
