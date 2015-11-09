@@ -1,0 +1,71 @@
+/* 
+    Created on : 28-oct-2015, 1:41:28
+    Author     : lcm
+*/
+
+* { margin: 0; padding: 0; }
+
+/* Cabecera
+- - - - - - - - */
+header {}
+
+/* Cuerpo
+- - - - - - - - */
+    
+    /* Principal
+    - - - - - - - - */
+    section {
+        width: 50%;
+        float: left;
+        border: 1px black solid;
+        background-color: antiquewhite;
+        margin-left: 4% ;
+    }
+        
+        /* Article de section
+        - - - - - - - - */
+        section article {
+            margin-bottom: 5px;
+        }
+        
+        section article img {
+            width: 300px;
+            height: 200px;
+            border: 1px black solid;
+            border-radius: 20px;
+            float: left;
+        }
+        
+        
+    
+    /* Lateral
+    - - - - - - - - */
+    aside {
+        width: 40%;
+        float: right;
+        border: 1px black solid;
+        background-color: aquamarine;
+        margin-right: 4%;
+    }
+    
+        /* Article de aside
+        - - - - - - - - */
+        aside article {
+            margin-bottom: 5px;
+
+        }
+        
+        aside article img {
+            width: 150px;
+            height: 100px;
+            border: 1px black solid;
+            border-radius: 10px;
+            float: left;
+        }
+    
+    /* Auxiliares
+    - - - - - - - - */
+    
+    .clear {
+            clear: both;
+        }
